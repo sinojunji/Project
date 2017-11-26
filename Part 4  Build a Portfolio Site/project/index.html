@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Portfolio">
+  <meta name="author" content="Junji">
+  <link rel="icon" href="bootstrap/favicon.ico">
+
+  <title>Portfolio</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for navbar -->
+  <link href="css/nav.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <!-- Heading -->
+    <div class="nowrap row">
+      <div class="col-md-4">
+        <img src="img/udacity.png" alt="Udacity Logo" class="logo img-fluid">
+      </div>
+      <div class="col-md-8 text-right text-uppercase">
+        <h1 class="title-super">Junji Wang</h1>
+        <h4 class="title-sub">Front-End Pupil</h4>
+      </div>
+    </div>
+
+    <!-- Navigator section -->
+    <header class="masthead">
+      <hr />
+      <nav class="navbar navbar-expand-md navbar-light bg-light rounded mb-3">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav text-md-center nav-justified w-100">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="projects" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+              <div class="dropdown-menu" aria-labelledby="projects">
+                <a class="dropdown-item" href="#makeuparticle">Makeup Article</a>
+                <a class="dropdown-item" href="#animaltradingcard">Animal Card</a>
+                <a class="dropdown-item" href="#portfolio">Portfolio</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="about" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+              <div class="dropdown-menu" aria-labelledby="about">
+                <a class="dropdown-item" href="#Udacity">Udacity Project</a>
+              </div>
+            </li>
+            <!--<li class="nav-item">
+              <a class="nav-link" href="#"></a>
+            </li>-->
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main role="main">
+      <!-- Jumbotron -->
+      <div class="row mainimg">
+        <img src="img/main.jpg" alt="Front End Nanodegree" class="img-fluid"/>
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row featurework">
+        <div class="col-md-12">
+          <h2 class="featuretitle">Featured Work</h2>
+        </div>
+        <div class="col-md-4 leftimg" id="makeuparticle">
+          <img src="img/makeuparticle.jpg" alt="make up article" class="img-fluid" data-toggle="modal" data-target="#project1"/>
+          <h3 class="text-center text-uppercase">Make up Article</h3>
+           <a href="https://github.com/sinojunji/Project/tree/master/Part%202%20Markup%20to%20Article/Project/mockup-to-article" target="_blank"><p class="text-center">GitHub: Makeup Article</p></a>
+        </div>
+        <div class="col-md-4 midimg" id="animaltradingcard">
+          <img src="img/animal.jpg" alt="animal card" class="img-fluid" data-toggle="modal" data-target="#project2"/>
+          <h3 class="text-center text-uppercase">Animal Card</h3>
+          <a href="https://github.com/sinojunji/Project/tree/master/Part%203%20%20Animal%20Trading%20Cards/Project/Animal%20Trading%20Cards" target="_blank"><p class="text-center">GitHub: Animal Card</p></a>
+        </div>
+        <div class="col-md-4 rightimg" id="portfolio">
+          <img src="img/project.jpg" alt="project" class="img-fluid" data-toggle="modal" data-target="#project3"/>
+          <h3 class="text-center text-uppercase">Portfolio</h3>
+           <a href="https://github.com/sinojunji/Project/tree/master/Part%204%20%20Build%20a%20Portfolio%20Site/project" target="_blank"><p class="text-center">GitHub: Protfolio</p></a>
+        </div>
+      </div>
+    </main>
+
+    <link rel="import" href="modal.html">
+
+    <!-- Site footer -->
+    <footer class="footer">
+      <p>&copy; Udacity FED P3 2017</p>
+    </footer>
+
+  </div>
+  <!-- /container -->
+
+
+  <!-- Button trigger modal -->
+  <!-- <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#project1">Demo modal</button> -->
+  <!-- Modal Popup Contents-->
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel">Project: Makeup Article</h4>
+              </div>
+              <div class="modal-body">
+                   <img class="img-fluid" src="img/article.png" alt="makeuparticle">
+                  This was my first project in this class. I learned a lot about HTML.
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Modal Popup Contents-->
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel1">Project: Makeup Article</h4>
+              </div>
+              <div class="modal-body">
+                   <img class="img-fluid" src="img/article.png" alt="makeuparticle">
+                  This was my second project in this class. I learned a lot about CSS.
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Modal Popup Contents-->
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel2">Project: Makeup Article</h4>
+              </div>
+              <div class="modal-body">
+                   <img class="img-fluid" src="img/article.png" alt="makeuparticle">
+                  This was my third project in this class. I learned a lot about Bootstrap framework.
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/popper.min.js"></script>
+  <!-- jQuery Lib -->
+  <script src="js/jquery/jquery-3.1.1.slim.min.js"></script>
+  <!-- Bootstrap js lib -->
+  <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="bootstrap/assets/js/vendor/jquery.min.js"><\/script>')
+  </script>
+
+  <script src="js/tether.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="bootstrap/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+</body>
+
+</html>

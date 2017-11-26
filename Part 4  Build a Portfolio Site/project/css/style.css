@@ -1,0 +1,139 @@
+/* text font */
+body{
+  font-family:  'Lato', sans-serif;
+  color: #747704;
+  font-weight: 200;
+}
+
+.nowrap{
+  margin:0;
+  flex-wrap: nowrap;
+}
+
+.nowrap > .col-md-6{
+    width: 100% !important;
+}
+.text-muted{
+  color: #BCBBBB;
+}
+.text-thin{
+  font-weight: 100;
+}
+
+.title-super{
+  font-size:30px;
+}
+
+.title-sub{
+  font-size: 15px;
+}
+
+/* Heading */
+.logo{
+  max-width: 100px;
+  max-height: 100px;
+}
+
+hr {
+    border: none;
+    width: auto;
+    height: 5px;
+    color: #BCBBBB; /* old IE */
+    background-color: #BCBBBB; /* Modern Browsers */
+}
+
+
+/* Main CSS */
+main .row{
+  margin: 1% 0;
+}
+
+main .mainimg{
+  display:inline-block;
+}
+
+main .featurework{
+  margin: 1% auto;
+}
+
+/* FeatureWork CSS */
+.featuretitle{
+  color: #BCBBBB;
+}
+
+.featurework  .col-md-12,.col-md-4{
+  padding:0;
+}
+
+.featurework .leftimg{
+  clear: both;
+  display: block;
+  margin: auto;
+  max-width: 80%;
+}
+
+.featurework .midimg{
+  clear: both;
+  display: block;
+  margin: auto;
+  max-width: 80%;
+}
+
+.featurework .rightimg{
+  clear: both;
+  display: block;
+  margin: auto;
+  max-width: 80%;
+}
+
+.featurework h3{
+  margin: 3% auto;
+}
+
+.featurework a:link, .featurework a:visited,
+.featurework  a:link:active, .featurework a:visited:active{
+    color:#747704;
+
+    cursor: auto;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .title-super{
+    font-size:60px;
+  }
+
+  .title-sub{
+    font-size: 20px;
+  }
+
+  .logo{
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  body{
+    font-weight: 200;
+  }
+
+  .nowrap > .col-md-6{
+      float: left !important;
+      width: 100% !important;
+  }
+
+  .featurework  .col-md-12,.col-md-4{
+    padding:0;
+  }
+
+  .featurework .leftimg{
+    padding-right: 2%;
+  }
+
+  .featurework .midimg{
+    padding: 0 1%;
+  }
+
+  .featurework .rightimg{
+    padding-left: 2%;
+  }
+}
