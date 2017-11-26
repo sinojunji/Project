@@ -1,0 +1,51 @@
+/* add your CSS here */
+/* font setting */
+h1,p,ul{
+  font-family: "Times New Roman", Times, serif;
+}
+h1{
+  padding:10px;
+  margin: 20px 15px 5px;
+}
+
+/* horizontal center */
+.center {
+    margin: auto;
+    width: 50%;
+}
+
+#content{
+  width: 350px;
+  border: 2px solid #F4F0ED;
+  box-shadow: 10px 10px 3px #E6E6E6;
+  margin: 30px auto;
+}
+
+#description{
+  width: 300px;
+  border: 2px solid #F4F0ED;
+  padding: 0 0;
+  margin: 10px 23px;
+}
+
+p,ul{
+  padding: 5px 15px;
+  margin:10px 0;
+}
+
+span{
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+img{
+  width: 300px;
+  display:block;
+  margin:auto;
+  padding: 10px;
+}
+
+ul{
+  -webkit-padding-start: 15px;
+  list-style: none;
+}
